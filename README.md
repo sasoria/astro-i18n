@@ -1,1 +1,1 @@
-# astro-server-islands
+# astro-i18n-example
