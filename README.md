@@ -1,1 +1,1 @@
-# astro-i18n
+# astro-server-islands
