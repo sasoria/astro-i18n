@@ -14,23 +14,6 @@ const locale = Astro.currentLocale;
     <title>{text.title[locale]}</title>
 </head>
 <body>
-<header>Header</header>
-<div class="page">
-    <h1>
-        {text.heading[locale]}
-    </h1>
-</div>
-<footer>Footer</footer>
+    <h1>{text.heading[locale]}</h1>
 </body>
 </html>
-
-<style>
-    html,
-    body {
-    height: 100%;
-    margin: 0;
-}
-    .page {
-    min-height: 20%;
-}
-</style>
