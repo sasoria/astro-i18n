@@ -1,7 +1,8 @@
 ---
 import { text } from "../../text";
+import type { Locale } from "../types";
 
-const locale = Astro.currentLocale;
+const locale = Astro.currentLocale as Locale;
 ---
 <!doctype html>
 <html lang={locale}>
